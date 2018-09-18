@@ -1,0 +1,20 @@
+$main-color: white;
+#projects {
+  background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(75, 13, 119, 0.5)),
+          url("../images/background.jpg");
+  .card {
+    border: 1px solid $main-color;
+    .card-body {
+      color: $main-color;
+    }
+    .card-header {
+      .btn-link {
+        text-transform: uppercase;
+        font-weight: bold;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

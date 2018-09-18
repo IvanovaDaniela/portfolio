@@ -1,0 +1,11 @@
+#projects {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(75, 13, 119, 0.5)), url("../images/background.jpg"); }
+  #projects .card {
+    border: 1px solid white; }
+    #projects .card .card-body {
+      color: white; }
+    #projects .card .card-header .btn-link {
+      text-transform: uppercase;
+      font-weight: bold; }
+      #projects .card .card-header .btn-link:hover {
+        text-decoration: none; }
